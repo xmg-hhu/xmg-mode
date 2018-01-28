@@ -4,7 +4,7 @@ An Emacs major mode for editing XMG files
 
 ** About
 
-=xmg-mode= adds rudimentary support of XMG files to Emacs:
+=xmg-mode= adds rudimentary support of [[https://github.com/spetitjean/XMG-2][XMG]] files to Emacs:
 - syntax highlighting
 - indentation
 
