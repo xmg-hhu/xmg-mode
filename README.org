@@ -1,0 +1,21 @@
+* xmg-mode
+
+An Emacs major mode for editing XMG files
+
+** About
+
+=xmg-mode= adds rudimentary support of XMG files to Emacs:
+- syntax highlighting
+- indentation
+
+[[file:screenshot.png]]
+
+** Installation
+
+- Put =xmg-mode.el= somewhere in your =.emacs.d= folder, e.g. under =lisp=.
+- Put the following code in your =init.el=:
+
+#+BEGIN_SRC emacs-lisp
+(load-file "/relative/path/to/xmg-mode.el") ; only if it's not in your load-path
+(require 'xmg-mode) 
+#+END_SRC

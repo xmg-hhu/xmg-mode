@@ -1,3 +1,0 @@
-# xmg-support
-
-This repository contains ...
