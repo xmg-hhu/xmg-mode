@@ -119,6 +119,14 @@
   (setq mode-name "XMG")
   (run-mode-hooks 'prog-mode-hook 'xmg-mode-hook))
 
+;; imenu support
+(defvar xmg-imenu-generic-expression
+      '(("class"  "^ *class *\\(.*\\)" 1)
+        ("value"     "^ *value *\\(.*\\)" 1)))
+(add-hook 'xmg-mode-hook
+					(lambda ()
+						(setq imenu-generic-expression xmg-imenu-generic-expression)))
+
 (provide 'xmg-mode)
 
 ;;; xmg-mode.el ends here
