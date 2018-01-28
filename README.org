@@ -7,6 +7,7 @@ An Emacs major mode for editing [[https://github.com/spetitjean/XMG-2][XMG]] fil
 =xmg-mode= adds rudimentary support of [[https://github.com/spetitjean/XMG-2][XMG]] files to Emacs:
 - syntax highlighting
 - indentation
+- =imenu= support
 
 [[file:screenshot.png]]
 
