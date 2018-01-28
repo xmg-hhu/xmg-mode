@@ -1,6 +1,6 @@
 * xmg-mode
 
-An Emacs major mode for editing XMG files
+An Emacs major mode for editing [[https://github.com/spetitjean/XMG-2][XMG]] files
 
 ** About
 
